@@ -1,0 +1,30 @@
+[
+	{
+		"id": 0,
+		"text": "You start your day like you start everyday, you are at work in a meeting. Your Boss (Paul) is telling you and your co-workers where you are going to be inspecting today, You are going to be inspecting the Hammer Valley Dam.",
+		"commands": {
+			"leave": 1,
+			"exit": 1
+		}
+	},
+	{
+		"id": 1,
+		"text": "You are in a corridor on the 7th floor, Your Boss reminds you to not forget your hard-hat.",
+		"commands": {
+			"goto": {
+				"stairs": 3,
+			},
+			"look": 2
+		}
+	},
+	{
+		"id": 2,
+		"text": "You can see some stairs, your co-workers are talking about public transport and how the tunnels arent going to suddenly collapse.",
+		"commands": {
+			"goto": {
+				"stairs": 3,
+			},
+			"look": 2
+		}
+	}
+]

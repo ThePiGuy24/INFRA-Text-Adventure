@@ -7,7 +7,7 @@ start = json.loads(file.read().decode("utf-8-sig"))
 file.close()
 
 levelfile = start["file"]
-position = start["segment"]
+position = start["position"]
 currentlevel = ""
 
 while True:
